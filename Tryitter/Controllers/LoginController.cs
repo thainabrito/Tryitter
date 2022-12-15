@@ -22,7 +22,6 @@ namespace Tryitter.Controllers
         [HttpPost(Name = "Login")]
         public void Post()
         {
-            /*Cadastro aqui*/
         }
 
 
