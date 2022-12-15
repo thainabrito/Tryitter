@@ -29,15 +29,15 @@ namespace Tryitter.Test
         public void TesteAtualizacao_Postagem()
         {
             var objeto = new Tryitter.Controllers;
-            //objeto.Twitte = "";            
+            objeto.Twitte = "";            
 
-            //Assert.IsNotNull(objeto);
+            Assert.IsNotNull(objeto);
         }
         [TestMethod]
         public void TesteGet_Postagem()
         {
-            //var objeto = new Tryitter.Models.Post();
-            //Assert.IsNotNull(objeto);
+            var objeto = new Tryitter.Models.Post();
+            Assert.IsNotNull(objeto);
         }
 
         [TestMethod]
