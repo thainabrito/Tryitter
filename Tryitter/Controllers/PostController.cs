@@ -16,5 +16,15 @@ namespace Tryitter.Controllers
         public IEnumerable<Post> ConsultarPosts(){
             return new List<Post>();
         }
+        [HttpDelete]
+        public void Delete() { 
+            
+        }
+
+        [HttpPut]
+        public void Atualizacao()
+        {
+
+        }
     }
 }
